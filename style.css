@@ -1,0 +1,53 @@
+.sliderImg{
+    height: 200px;
+}
+
+html{
+    /* border: 2px solid red; */
+    margin: auto;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(111deg, rgba(177,149,238,1) 0%, rgba(55,92,171,1) 36%, rgba(9,9,121,1) 70%, rgba(2,0,36,1) 100%);
+}
+
+.text{
+    font-family: monospace;
+    font-size: xx-large;
+    text-align: center;
+}
+
+.controls{
+    display: flex;
+    justify-content: space-between;
+}
+
+.button{
+    font-family: monospace;
+    font-size: large;
+    border-radius: 6px;
+    color: black;
+    background-color: white;
+    border-color: white;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    margin-top: 10px;
+}
+
+.button:active{
+    background-color: #b0b0e1;
+    color: azure;
+}
+
+.container{
+    background-color: rgba(248,248,255, 0.45);
+    padding: 15px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.6);
+}
+
+.hidden {
+    display: none;
+}
